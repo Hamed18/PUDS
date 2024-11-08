@@ -1,0 +1,26 @@
+{
+    "moderators": [
+      {
+        "name": "Alice Brown",
+        "position": "Moderator",
+        "photoUrl": "https://example.com/photos/alice_brown.jpg",
+        "description": "Alice facilitates discussions and ensures active member participation in all club events.",
+        "linkedin": "https://linkedin.com/in/alicebrown"
+      },
+      {
+        "name": "Michael Green",
+        "position": "Moderator",
+        "photoUrl": "https://example.com/photos/michael_green.jpg",
+        "description": "Michael manages the online forums and helps maintain a productive and respectful club environment.",
+        "linkedin": "https://linkedin.com/in/michaelgreen"
+      },
+      {
+        "name": "Sophia White",
+        "position": "Moderator",
+        "photoUrl": "https://example.com/photos/sophia_white.jpg",
+        "description": "Sophia organizes and moderates panel discussions with guest speakers and club members.",
+        "linkedin": "https://linkedin.com/in/sophiawhite"
+      }
+    ]
+  }
+  

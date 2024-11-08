@@ -1,0 +1,25 @@
+{
+  "executiveCommittee": [
+    {
+      "name": "John Doe",
+      "position": "President",
+      "photoUrl": "https://i.ibb.co/QcjbGs5/tofan-teodor-Kjht-Jp7-Rh3-E-unsplash.jpg",
+      "description": "John is the visionary leader of the club, ensuring its success and leading initiative growth.",
+      "linkedin": "https://linkedin.com/in/johndoe"
+    },
+    {
+      "name": "Jane Smith",
+      "position": "Vice President",
+      "photoUrl": "https://i.ibb.co/Zx8HTV2/harry-pappas-xyaui-SBWRFs-unsplash.jpg",
+      "description": "Jane oversees key projects and supports the President in executing the club’s strategic goals.",
+      "linkedin": "https://linkedin.com/in/janesmith"
+    },
+    {
+      "name": "David Lee",
+      "position": "General Secretary",
+      "photoUrl": "https://i.ibb.co/9gdS9vP/usman-yousaf-y-IOVi-GQmj-J4-unsplash.jpg",
+      "description": "David manages club communications and ensures the smooth running of daily operations.",
+      "linkedin": "https://linkedin.com/in/davidlee"
+    }
+  ]
+}
