@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "https://example.com/images/member1.jpg",
+    "name": "John Doe",
+    "designation": "President",
+    "facebook": "https://facebook.com/johndoe",
+    "linkedin": "https://linkedin.com/in/johndoe"
+  },
+  {
+    "id": 2,
+    "image": "https://example.com/images/member2.jpg",
+    "name": "Jane Smith",
+    "designation": "Vice President",
+    "facebook": "https://facebook.com/janesmith",
+    "linkedin": "https://linkedin.com/in/janesmith"
+  },
+  {
+    "id": 3,
+    "image": "https://example.com/images/member3.jpg",
+    "name": "Michael Brown",
+    "designation": "Treasurer",
+    "facebook": "https://facebook.com/michaelbrown",
+    "linkedin": "https://linkedin.com/in/michaelbrown"
+  },
+  {
+    "id": 4,
+    "image": "https://example.com/images/member4.jpg",
+    "name": "Emily Davis",
+    "designation": "Secretary",
+    "facebook": "https://facebook.com/emilydavis",
+    "linkedin": "https://linkedin.com/in/emilydavis"
+  },
+  {
+    "id": 5,
+    "image": "https://example.com/images/member5.jpg",
+    "name": "Chris Johnson",
+    "designation": "Event Coordinator",
+    "facebook": "https://facebook.com/chrisjohnson",
+    "linkedin": "https://linkedin.com/in/chrisjohnson"
+  }
+]
