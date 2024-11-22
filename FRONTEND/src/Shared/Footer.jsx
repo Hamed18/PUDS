@@ -34,7 +34,7 @@ const Footer = () => {
               </p>
             </aside>
             <nav>
-              <div className="flex justify-center gap-10 ">
+              <div className="flex justify-center gap-10 mt-4">
                 <a className="border rounded-full p-2 hover:bg-slate-200 hover:text-black cursor-pointer delay-75 ease-in-out transition ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

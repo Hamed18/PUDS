@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const CurrentPanel = () => {
   const [executiveCommittee, setExecutiveCommittee] = useState([]);
@@ -69,6 +70,13 @@ const CurrentPanel = () => {
             ))}
           </Swiper>
         </>
+      </div>
+      <div className="flex justify-center items-center">
+          <Link to="/members">
+                <button className="bg-violet-600 text-white font-bold my-8 px-6 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105 ">
+                   View Full Panel
+                </button>
+          </Link>
       </div>
     </div>
   );
