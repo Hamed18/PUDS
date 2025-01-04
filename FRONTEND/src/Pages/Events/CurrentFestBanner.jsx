@@ -25,7 +25,7 @@ const CurrentFestBanner = () => {
           <SwiperSlide>
             <div className="relative w-full h-full">
               <img
-                src={a}
+                src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736013961/gatewayCover1_bkarra.jpg"
                 alt="Library Image 1"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -44,7 +44,7 @@ const CurrentFestBanner = () => {
           <SwiperSlide>
             <div className="relative w-full h-full">
               <img
-                src={b}
+                src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736013961/neon_c9skef.jpg"
                 alt="Library Image 2"
                 className="w-full h-full object-cover rounded-lg"
               />

@@ -6,7 +6,7 @@ const UnderConstruction = () => {
 		<div className="my-12 md:my-24">
 		  <h3 className="text-center text-xl mb-4">This Page Is Under Construction!</h3>
 		  <div className="flex items-center justify-center">
-		      <img src={img} alt="" className="flex items-center justify-center w-[400px] h-[300px]"/>
+		      <img src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736009708/later_sod2rc.png" alt="" className="flex items-center justify-center w-[400px] h-[300px]"/>
 		  </div>
           <div className="text-center my-4">
 			<button>

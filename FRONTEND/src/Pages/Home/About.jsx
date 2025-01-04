@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <div className="relative md:w-1/2">
-        <img src={a} alt="Description of image" className="rounded-xl w-full" />
+        <img src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736009707/FestCover_srjip2.jpg" alt="Description of image" className="rounded-xl w-full" />
 
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 rounded-b-xl px-4 py-2">
           <p className="text-white text-center text-lg md:text-xl font-semibold">

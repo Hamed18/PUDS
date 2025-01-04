@@ -1,21 +1,18 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react"; // npm install swiper
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import e from "../../src/assets/Images/festCover.jpg";
-import h from "../../src/assets/Images/debate1.jpg";
+import "swiper/css/navigation";
+import { Pagination, Autoplay } from "swiper/modules"; // Removed Navigation
 import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
     <div className="w-full h-60 md:h-96 lg:h-[600px] bg-gray-100">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Pagination, Autoplay]} // Removed Navigation
         spaceBetween={30}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000 }}
         loop
@@ -24,12 +21,12 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative w-full h-full">
             <img
-              src={e}
+              src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736009707/FestCover_srjip2.jpg"
               alt="Library Image 1"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center pb-8 text-center">
-              <h2 className="text-3xl md:text-5xl text-white font-extrabold drop-shadow-lg">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
                 Boost your Public Speaking Skills
               </h2>
               <Link to="/events">
@@ -43,12 +40,12 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative w-full h-full">
             <img
-              src={h}
+              src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736009706/debate1_dtipyw.jpg"
               alt="Library Image 2"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center pb-8 text-center">
-              <h2 className="text-3xl md:text-5xl text-white font-extrabold drop-shadow-lg">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
                 Be a Part of the Legacy
               </h2>
               <Link to="/events">
