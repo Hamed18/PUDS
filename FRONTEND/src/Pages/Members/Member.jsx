@@ -48,7 +48,7 @@ const Member = () => {
                 <div className="text-center">
                   {" "}
                   <h2 className="font-bold text-xl">{res.name}</h2>
-                  <p className="text-gray-600">{res.designation}</p>
+                  <p className="text-gray-600">{res.position}</p>
                   <div className="flex justify-center gap-7 my-5">
                     <Link to={res.facebook}>
                       <img
