@@ -16,67 +16,61 @@ const CurrentPanel = () => {
       .catch((error) => console.error("Failed to load", error));
   }, []);
 
-  console.log(executiveCommittee);
-
   return (
-    <div>
-      <div>
-        <h3 className="my-4 font-bold text-3xl text-center">Current Panel</h3>
-        <p className="w-2/3 text-center mx-auto mb-10">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis
-          nulla officia iusto quas sunt, laboriosam cum laudantium illo?
+    <div className="bg-gray-100 py-12">
+      <div className="text-center">
+        <h3 className="text-4xl font-bold text-gray-800 mb-6">Current Panel</h3>
+        <p className="w-full md:w-2/3 text-lg text-gray-600 mx-auto mb-10">
+          Meet our distinguished Executive Committee members who lead with dedication and vision.
         </p>
       </div>
 
-      <div>
-        <>
-          <h1 className="font-bold text-gray-700 pt-4 pb-8 text-center">Executive Committee</h1>
-          <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-          >
-            {executiveCommittee.map((member, index) => (
-              <SwiperSlide key={index}>
-                <div className="bg-gradient-to-r from-slate-50 to-red-50 flex flex-col items-center justify-center text-center border rounded-lg p-6 ">
-                  <img
-                    src={member.photoUrl}
-                    alt={member.name}
-                    className="rounded-3xl object-cover mb-4"
-                    style={{ width: "220px", height: "128px" }}
-                  />
-                  <h4 className="font-bold text-lg">{member.name}</h4>
-                  <p className="italic">{member.position}</p>
-                  <p className="mt-2 text-sm">{member.description}</p>
-                  <a
-                    href={member.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 mt-2 mb-6"
-                  >
-                    LinkedIn Profile
-                  </a>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </>
+      <div className="max-w-6xl mx-auto">
+        <h1 className="font-bold text-2xl text-gray-700 mb-8 text-center">
+          Executive Committee
+        </h1>
+        <Swiper
+          spaceBetween={40}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          {executiveCommittee.map((member, index) => (
+            <SwiperSlide key={index}>
+              <div className="bg-white shadow-lg rounded-lg w-80 md:w-96 p-6 flex flex-col items-center text-center border hover:shadow-2xl transition-shadow duration-300">
+                <img
+                  src={member.photoUrl}
+                  alt={member.name}
+                  className="rounded-full object-cover mb-4 shadow-md border-4 border-violet-500"
+                  style={{ width: "200px", height: "200px" }}
+                />
+                <h4 className="text-2xl font-semibold text-gray-800">
+                  {member.name}
+                </h4>
+                <p className="text-sm italic text-gray-600 mb-4">{member.position}</p>
+                {/* <p className="text-gray-500 mt-4">
+                  Dedicated to guiding the organization with expertise and vision.
+                </p> */}
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
-      <div className="flex justify-center items-center">
-          <Link to="/members">
-                <button className="bg-violet-600 text-white font-bold my-8 px-6 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105 ">
-                   View Full Panel
-                </button>
-          </Link>
+
+      <div className="flex justify-center items-center mt-10">
+        <Link to="/members">
+          <button className="bg-violet-600 text-white font-bold px-10 py-3 rounded-full shadow-lg hover:bg-violet-700 transform transition-transform duration-300 hover:scale-105">
+            View Full Panel
+          </button>
+        </Link>
       </div>
     </div>
   );
