@@ -14,13 +14,17 @@ const BreakingNews = () => {
           <FaTrophy className="text-yellow-500 mr-2" />
           One of the prestigious debate clubs in the heart of port city Chittagong...
         </Link>
-        <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
+        {/* <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
           <FaUniversity className="text-green-500 mr-2" />
           Welcome to Premier University Debating Society.
         </Link>
         <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
           <FaStar className="text-purple-500 mr-2" />
           One of the prestigious debate clubs in the heart of port city Chittagong...
+        </Link> */}
+        <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
+          <FaStar className="text-purple-500 mr-2" />
+          PUDS became the DCN IV'24 Runner-up!
         </Link>
       </Marquee>
     </div>
