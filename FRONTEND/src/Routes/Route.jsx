@@ -5,6 +5,7 @@ import Event from "../Pages/Events/Event";
 import Join from "../Pages/Join/Join";
 import ErrorPage from "./ErrorPage";
 import Member from "../Pages/Members/Member";
+import Achievements from "../Pages/Home/Achievements";
 const routes = createBrowserRouter([
 	{
 	  path: "/",
@@ -26,6 +27,10 @@ const routes = createBrowserRouter([
 		{
 			path: "/members",
 			element: <Member></Member>
+		},
+		{
+			path: "/achieve",
+			element: <Achievements></Achievements>
 		}
 	  ]
 	}

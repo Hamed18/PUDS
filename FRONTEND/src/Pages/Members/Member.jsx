@@ -24,6 +24,10 @@ const Member = () => {
     }),
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when the component is mounted
+  }, []);
+
   return (
     <>
       <div>

@@ -22,7 +22,7 @@ const Headline = () => {
       <div className="flex items-start md:items-center text-white space-x-2">
         <FaBullhorn className="text-yellow-300 text-4xl md:text-4xl" />
         <h3 className="text-xl md:text-xl lg:text-2xl font-semibold leading-tight">
-          Recruitment of new members is going on!
+          Recruitment is going on!
         </h3>
         {/* Register Now button with icon */}
         <Link
