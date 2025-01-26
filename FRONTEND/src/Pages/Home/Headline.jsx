@@ -8,34 +8,34 @@ const Headline = () => {
   if (!isVisible) return null; // Hide component when not visible
 
   return (
-    <div className="relative flex flex-col md:flex-row items-start md:items-center justify-between bg-violet-500 p-2 md:p-4 pr-10 md:pr-12 rounded-lg shadow-lg gap-4">
+    <div className="relative flex flex-col md:flex-row items-center justify-between bg-violet-500 py-2 px-4 md:py-3 md:px-6 rounded-lg shadow-lg">
       {/* Close button */}
-      <button
+      {/* <button
         className="absolute top-2 right-2 md:right-4 text-white hover:text-gray-300 transition"
         onClick={() => setIsVisible(false)}
         aria-label="Close"
       >
-        <FaTimes className="text-xl md:text-2xl" />
-      </button>
+        <FaTimes className="text-xl md:text-2xl ml-2 space-x-2 md:space-x-4" />
+      </button> */}
 
       {/* Message with icon */}
-      <div className="flex items-start md:items-center text-white space-x-2">
-        <FaBullhorn className="text-yellow-300 text-4xl md:text-4xl" />
-        <h3 className="text-xl md:text-xl lg:text-2xl font-semibold leading-tight">
-          Recruitment is going on!
+      <div className="flex items-center gap-3">
+        <FaBullhorn className="text-yellow-300 text-2xl md:text-4xl" />
+        <h3 className="text-sm md:text-xl font-semibold md:font-bold text-white">
+          5th PUDS BP Casual Coming Soon!
         </h3>
-        {/* Register Now button with icon */}
-        <Link
-          to="https://docs.google.com/forms/d/e/1FAIpQLSd1CI_pErJQuAYz5qbxjVbWyW4LXc1E4aWLFXVupdww2AS8-w/viewform"
-          target="_blank"
-          className="self-start md:self-auto"
-        >
-          <button className="flex items-center bg-yellow-400 hover:bg-yellow-500 text-violet-900 font-bold px-2 py-1 md:px-4 md:py-2 rounded-full transition duration-300 ease-in-out shadow-md hover:shadow-lg text-sm md:text-base">
-            Register Now
-            <FaArrowRight className="ml-2" />
-          </button>
-        </Link>
       </div>
+
+      {/* Register Now button */}
+      <Link
+        to="https://www.facebook.com/groups/307162657708"
+        target="_blank"
+      >
+        <button className="flex items-center text-sm md:text-xl font-semibold md:font-bold bg-yellow-400 hover:bg-yellow-500 text-violet-800 px-1 md:px-3 py-1 md:py-2 rounded-full transition duration-300 ease-in-out shadow-md hover:shadow-lg ">
+          View Event
+          <FaArrowRight className="ml-2" />
+        </button>
+      </Link>
     </div>
   );
 };
