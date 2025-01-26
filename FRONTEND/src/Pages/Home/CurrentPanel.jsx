@@ -27,7 +27,7 @@ const CurrentPanel = () => {
 
       <div className="max-w-6xl mx-auto">
         <h1 className="font-bold text-2xl text-gray-700 mb-8 text-center">
-          Executive Committee
+          12th Executive Committee
         </h1>
         <Swiper
           spaceBetween={40}

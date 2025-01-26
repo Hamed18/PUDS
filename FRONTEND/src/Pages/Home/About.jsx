@@ -7,7 +7,7 @@ const About = () => {
         <h3 className="font-bold text-lg md:text-xl">
           Wonder what PUDS is all about?
         </h3>
-        <h2 className="font-bold text-2xl md:text-3xl">
+        <h2 className="font-bold text-2xl text-violet-800 md:text-3xl">
           Upgrade Yourself: From Enthusiasts to Experts
         </h2>
         <p className="text-sm md:text-base lg:text-lg">

@@ -14,7 +14,7 @@ import { FaArrowRight } from "react-icons/fa";
 const CurrentEvent = () => {
   return (
     <div className="flex flex-col items-center my-8">
-      <h2 className="my-4 font-bold text-3xl text-center">Latest Event</h2>
+      <h2 className="my-4 font-bold text-4xl text-violet-800 text-center">Latest Event</h2>
       <Link to="/events">
         <img
           src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736013961/gatewayCover1_bkarra.jpg"
