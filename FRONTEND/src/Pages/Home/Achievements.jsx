@@ -23,14 +23,13 @@ const Achievements = () => {
       {/* Fixed bg-white-500 to bg-white */}
       <div className="text-center my-6">
         <h3 className="text-4xl font-bold text-violet-800 mb-4 flex items-center justify-center gap-2">
-          <Trophy className="w-8 h-8 text-violet-800" />
+          {/* <Trophy className="w-8 h-8 text-violet-800" /> */}
           Achievements of PUDS
         </h3>
         <p className="text-lg text-gray-600">
           PUDS has achieved unparalleled excellence in debate, securing numerous
           national trophies and setting a benchmark for success. The club's
-          legacy continues to inspire future debater's dedication and
-          spirit.
+          legacy continues to inspire future debater's dedication and spirit.
         </p>
       </div>
       <div className="max-w-6xl mx-auto">
@@ -44,23 +43,22 @@ const Achievements = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+        //   navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
           {achieve.map((member, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white shadow-lg rounded-lg w-96 md:w-[40rem] p-6 flex flex-col items-center text-center border hover:shadow-2xl transition-shadow duration-300">
+              <div className="bg-white shadow-lg rounded-lg w-full md:w-[40rem] p-6 flex flex-col items-center text-center border hover:shadow-2xl transition-shadow duration-300">
                 <img
                   src={member.photo}
                   alt={member.title}
-                  className="rounded-none object-cover w-full mb-4 shadow-md border-4 border-violet-500"
-                  style={{ height: "400px" }} // Inline styling for height
+                  className="rounded-none object-cover w-full h-[200px] md:h-[400px] mb-4 shadow-md border-4 border-violet-500"
                 />
-                <h4 className="text-3xl font-semibold text-gray-800">
+                <h4 className="text-2xl font-bold text-violet-800 text-gray-800">
                   {member.title}
                 </h4>
-                <p className="text-2xl text-gray-600 mb-4">{member.subtitle}</p>
+                <p className="text-xl font-semibold text-violet-500 mb-4">{member.subtitle}</p>
               </div>
             </SwiperSlide>
           ))}
