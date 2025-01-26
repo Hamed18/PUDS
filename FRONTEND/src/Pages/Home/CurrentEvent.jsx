@@ -2,6 +2,15 @@ import { Link } from "react-router-dom";
 import a from "../../../src/assets/Events/gatewayCover1.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
+  // const handleScrollToTop = () => {
+  //   // Scroll to the top of the page
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth", // Add smooth scrolling
+  //   });
+  // };
+
+
 const CurrentEvent = () => {
   return (
     <div className="flex flex-col items-center my-8">
@@ -13,7 +22,7 @@ const CurrentEvent = () => {
           className="my-4 max-w-full h-auto rounded-lg shadow-md"
         />
       </Link>
-      <Link to="/events">
+      <Link to="/events" /*onClick={handleScrollToTop}*/ >
         <button className="flex items-center text-blue-500 underline hover:text-blue-700 mt-4 px-4 py-2 rounded-none">
           <h3 className="mr-2 text-2xl">View Event</h3>
           <FaArrowRight className="text-blue-500" />
