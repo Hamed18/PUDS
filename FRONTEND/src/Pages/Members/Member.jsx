@@ -1,74 +1,110 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import facebook from "../../assets/icons/facebook.png";
 import linkedin from "../../assets/icons/linkedin.png";
 import { Link } from "react-router-dom";
 
 const Member = () => {
-  const [data, setData] = useState([]);
+  const [executiveCommittee, setExecutiveCommittee] = useState([]);
 
   useEffect(() => {
-    fetch("/members.json")
-      .then((response) => response.json())
-      .then((json) => setData(json))
-      .catch((error) => console.error("Error fetching JSON:", error));
+    fetch("/executiveCommittee.json")
+      .then((res) => res.json())
+      .then((data) => setExecutiveCommittee(data.executiveCommittee))
+      .catch((error) => console.error("Failed to load", error));
   }, []);
 
-  console.log(data);
+  // Animation variants for reusable settings
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: { delay: i * 0.1, duration: 0.6 },
+    }),
+  };
 
   return (
     <>
       <div>
         <div className="my-8 md:my-12">
-          <h3 className="text-center font-bold text-3xl">
-            12th Executive Body
-          </h3>
-          <p className="text-center my-4">
+          <h3 className="text-center font-bold text-3xl">12th Executive Body</h3>
+          <p className="text-center my-4 text-gray-600 leading-relaxed">
             The Executive Body of the Premier University Debating Society (PUDS)
-            is the heart and soul of the club's operations. Composed of
-            enthusiastic and committed members, this team is the engine driving
-            all club activities and initiatives. They excel in planning events,
-            managing projects, and ensuring that everything runs smoothly within
-            the club. Their primary goal is to nurture a dynamic and
-            collaborative environment that encourages personal and professional
-            development for all members. Through their vision and dedication,
-            the Executive Body continually elevates PUDS, creating a lasting
-            positive impact on its members and the broader community.
+            is the heart and soul of the club's operations. Through their vision and dedication,
+            the Executive Body continually elevates PUDS, creating a lasting positive
+            impact on its members and the broader community.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center place-items-center gap-10 my-10">
-          {data.map((res) => (
-            <div key={res.id} className="card bg-base-100 w-96 shadow-xl">
-              <figure>
+
+        {/* Responsive grid */}
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 my-10 px-5"
+          initial="hidden"
+          animate="visible"
+        >
+          {executiveCommittee.map((res, index) => (
+            <motion.div
+              key={res.id}
+              className="card bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+              custom={index}
+              variants={cardVariants}
+              whileHover={{ scale: 1.05 }}
+            >
+              <motion.figure
+                className="h-60 overflow-hidden"
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.5 }}
+              >
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
+                  src={res.photoUrl}
+                  alt={`${res.name}'s photo`}
+                  className="w-full h-full object-cover"
                 />
-              </figure>
-              <div className="card-body">
+              </motion.figure>
+              <div className="p-6">
                 <div className="text-center">
-                  {" "}
-                  <h2 className="font-bold text-xl">{res.name}</h2>
+                  <h2 className="font-bold text-xl text-gray-800">{res.name}</h2>
                   <p className="text-gray-600">{res.position}</p>
-                  <div className="flex justify-center gap-7 my-5">
-                    <Link to={res.facebook}>
-                      <img
-                        src={facebook}
-                        className="w-8 hover:transition duration-200 ease-in-out hover:w-9 "
-                      />
-                    </Link>
-                    <Link to={res.linkedin}>
-                      <img
-                        src={linkedin}
-                        className="w-8 hover:transition duration-200 ease-in-out hover:w-9 "
-                      />
-                    </Link>
+                  <div className="flex justify-center gap-4 mt-4">
+                    <motion.div
+                      whileHover={{ scale: 1.2, rotate: 10 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <Link
+                        to={res.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={facebook}
+                          alt="Facebook"
+                          className="w-8 h-8 rounded-full"
+                        />
+                      </Link>
+                    </motion.div>
+                    <motion.div
+                      whileHover={{ scale: 1.2, rotate: 10 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <Link
+                        to={res.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={linkedin}
+                          alt="LinkedIn"
+                          className="w-8 h-8 rounded-full"
+                        />
+                      </Link>
+                    </motion.div>
                   </div>
                 </div>
-                <div></div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </>
   );
