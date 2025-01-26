@@ -32,33 +32,16 @@
       "linkedin": "https://linkedin.com/in/davidlee"
     },
     {
-      "name": "Tonmoy Tahsin",
-      "position": "President",
-      "photoUrl": "",
-      "description": "John is the visionary leader of the club, ensuring its success and leading initiative growth.",
-      "linkedin": "https://linkedin.com/in/johndoe",
-      "facebook": "",
-      "whatsApp": "",
-      "email": ""
-    },
-    {
-      "name": "Asif Uddin",
-      "position": "Senior Vice President",
-      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902549/Md_Asif_Uddin_ekdu7j.jpg",
-      "description": "Jane oversees key projects and supports the President in executing the club’s strategic goals.",
-      "linkedin": "https://res.cloudinary.com/df5utoo6u/image/upload/v1736971748/Md_Asif_Uddin_p6x7jp.jpg"
-    },
-    {
-      "name": "Rajesh Dhar",
-      "position": "General Secretary",
-      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1736971748/Rajesh_Dhar_xlqhgt.jpg",
+      "name": "Fam Ayon",
+      "position": "Organizing Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902553/ayon_zltzjq.jpg",
       "description": "David manages club communications and ensures the smooth running of daily operations.",
       "linkedin": "https://linkedin.com/in/davidlee"
     },
     {
-      "name": "Hamed Hasan",
-      "position": "Joint Secretary",
-      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1736971749/Hamed_Hasan_kxyw4o.jpg",
+      "name": "Shifat-E-Noor",
+      "position": "Debate Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902557/shifat_noorchy_xlumi9.jpg",
       "description": "David manages club communications and ensures the smooth running of daily operations.",
       "linkedin": "https://linkedin.com/in/davidlee"
     }
