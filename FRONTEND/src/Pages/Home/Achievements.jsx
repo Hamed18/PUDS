@@ -18,15 +18,15 @@ const Achievements = () => {
   }, []);
 
   return (
-    <div className="bg-white py-8">
+    <div className="bg-white py-4">
       {" "}
       {/* Fixed bg-white-500 to bg-white */}
-      <div className="text-center my-6">
+      <div className="text-center my-4">
         <h3 className="text-4xl font-bold text-violet-800 mb-4 flex items-center justify-center gap-2">
           {/* <Trophy className="w-8 h-8 text-violet-800" /> */}
           Achievements of PUDS
         </h3>
-        <p className="text-lg text-gray-600">
+        <p className="text-lg text-black-500">
           PUDS has achieved unparalleled excellence in debate, securing numerous
           national trophies and setting a benchmark for success. The club's
           legacy continues to inspire future debater's dedication and spirit.
