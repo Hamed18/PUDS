@@ -10,7 +10,7 @@ const About = () => {
         <h2 className="font-bold text-2xl text-violet-800 md:text-3xl">
           Upgrade Yourself: From Enthusiasts to Experts
         </h2>
-        <p className="text-sm md:text-base lg:text-lg">
+        <p className="text-lg md:text-xl">
           At PUDS (Premier University Debating Society), we believe in
           practicing and organizing, preparing the next generation. Our mission
           is to offer Premier University students a platform to engage in debate
@@ -35,7 +35,7 @@ const About = () => {
 
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 rounded-b-xl px-4 py-2">
           <p className="text-white text-center text-lg md:text-xl font-semibold">
-            A united and vibrant community with the goal of upgrading itself.
+            A united and vibrant community with the goal of fostering debate.
           </p>
         </div>
       </div>

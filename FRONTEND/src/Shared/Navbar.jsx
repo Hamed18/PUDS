@@ -107,7 +107,7 @@ const Navbar = () => {
         </label>
 
         <div className='w-10 rounded-full md:tooltip md:tooltip-left'></div>
-        <div className="tooltip" data-tip="Room 601">
+        <div className="tooltip tooltip-left" data-tip="Room 601">
         <img
           alt='Tailwind CSS Navbar component'
           src={DebateIcon}
