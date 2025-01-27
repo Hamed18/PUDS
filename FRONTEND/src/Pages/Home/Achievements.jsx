@@ -18,11 +18,11 @@ const Achievements = () => {
   }, []);
 
   return (
-    <div className="bg-white py-4">
+    <div className="bg-white py-2">
       {" "}
       {/* Fixed bg-white-500 to bg-white */}
-      <div className="text-center my-4">
-        <h3 className="text-4xl font-bold text-violet-800 mb-4 flex items-center justify-center gap-2">
+      <div className="text-center my-4 md:my-8">
+        <h3 className="text-3xl md:text-4xl font-bold text-violet-800 mb-4 flex items-center justify-center gap-2">
           {/* <Trophy className="w-8 h-8 text-violet-800" /> */}
           Achievements of PUDS
         </h3>

@@ -55,8 +55,8 @@ const Navbar = () => {
           </ul>
         </div>
         <a className='flex items-center btn btn-ghost text-2xl font-bold'>
-          <img src={logo} alt='ReeFood Logo' className='w-8 h-8' />
-          <span className='text-green-500'>PUDS</span>
+          <img src={logo} alt='ReeFood Logo' className='w-8 h-8 hidden' />
+          <span className='text-violet-800'>PUDS</span>
         </a>
       </div>
       <div className='navbar-center hidden lg:flex'>

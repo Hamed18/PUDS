@@ -26,11 +26,11 @@ const Banner = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center pb-8 text-center">
-              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
+              <h2 className="text-2xl md:text-4xl font-bold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
                 Boost your Public Speaking Skills
               </h2>
               <Link to="/events">
-                <button className="bg-violet-600 text-white font-bold mt-4 px-6 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <button className="bg-violet-500 text-white font-semibold md:font-bold mt-4 px-4 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
                   Join
                 </button>
               </Link>
@@ -45,11 +45,11 @@ const Banner = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center pb-8 text-center">
-              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
+              <h2 className="text-2xl md:text-4xl font-bold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
                 Be a Part of the Legacy
               </h2>
               <Link to="/events">
-                <button className="bg-violet-600 text-white font-bold mt-4 px-6 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
+                <button className="bg-violet-600 text-white font-semibold md:font-bold mt-4 px-4 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
                   Join
                 </button>
               </Link>

@@ -13,7 +13,7 @@ const CurrentFest = () => {
         <div className="space-y-6">
           <div className="border-b pb-4">
             <h2 className="text-xl font-semibold text-violet-500">
-              What is it?
+              What was it?
             </h2>
             <p className="my-4 text-center text-gray-700">
               "Premier University Debating Society" is bringing the "6th PUDS Gateway 2024" for newcomers — a grand initiative aimed at self-development and skill enhancement. The goal of PUDS is to foster students as rational and enlightened individuals through the practice of free thinking.

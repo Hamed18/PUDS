@@ -19,7 +19,7 @@ const CurrentPanel = () => {
   return (
     <div className="bg-white-500 py-8">
       <div className="text-center">
-        <h3 className="text-4xl font-bold text-violet-800 mb-6">Current Panel</h3>
+        <h3 className="text-3xl md:text-4xl font-bold text-violet-800 mb-6">Current Panel</h3>
         <p className="w-full md:w-2/3 text-lg text-gray-600 mx-auto mb-10">
           Meet our distinguished Executive Committee members who lead with dedication and vision.
         </p>
