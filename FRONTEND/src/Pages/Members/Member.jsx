@@ -33,7 +33,7 @@ const Member = () => {
       <div>
         <div className="my-8 md:my-12">
           <h3 className="text-center text-violet-800 font-bold text-2xl md:text-3xl">12th Executive Body</h3>
-          <p className="text-center my-4 text-gray-600 leading-relaxed">
+          <p className="text-center my-4 text-black-500 leading-relaxed">
             The Executive Body of the Premier University Debating Society (PUDS)
             is the heart and soul of the club's operations. Through their vision and dedication,
             the Executive Body continually elevates PUDS, creating a lasting positive
