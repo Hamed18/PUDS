@@ -31,7 +31,7 @@ const Headline = () => {
         to="https://www.facebook.com/groups/307162657708"
         target="_blank"
       >
-        <button className="flex items-center text-sm md:text-xl font-semibold md:font-bold bg-yellow-400 hover:bg-yellow-500 text-violet-800 px-1 md:px-3 py-1 md:py-2 rounded-full transition duration-300 ease-in-out shadow-md hover:shadow-lg ">
+        <button className="flex items-center text-sm md:text-xl font-semibold md:font-bold bg-yellow-400 hover:bg-yellow-500 text-violet-500 px-2 md:px-3 py-1 md:py-2 rounded-full transition duration-300 ease-in-out shadow-md hover:shadow-lg ">
           View Event
           <FaArrowRight className="ml-2" />
         </button>

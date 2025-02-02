@@ -13,13 +13,13 @@ import { FaArrowRight } from "react-icons/fa";
 
 const CurrentEvent = () => {
   return (
-    <div className="flex flex-col items-center my-4 md:my-12 py-2">
-      <h2 className="my-4 font-bold text-3xl md:text-4xl text-violet-800 text-center">Latest Event</h2>
+    <div className="flex flex-col items-center my-2 md:my-4">
+      <h2 className="font-bold text-3xl md:text-4xl text-violet-500 text-center py-2">Latest Event</h2>
       <Link to="/events">
         <img
           src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736013961/gatewayCover1_bkarra.jpg"
           alt="Current Event"
-          className="my-4 max-w-full h-auto rounded-lg shadow-md"
+          className="py-2 md:py-4 max-w-full h-auto rounded-lg shadow-md"
         />
       </Link>
       <Link to="/events" /*onClick={handleScrollToTop}*/ >

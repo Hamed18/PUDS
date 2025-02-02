@@ -49,18 +49,18 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-36 p-4 shadow-xl'
+            className='menu menu-sm font-semibold text-lg dropdown-content bg-base-100 rounded-box z-50 mt-3 w-36 p-4 shadow-xl'
           >
             {navLinks}
           </ul>
         </div>
         <a className='flex items-center btn btn-ghost text-2xl font-bold'>
           <img src={logo} alt='ReeFood Logo' className='w-8 h-8 hidden' />
-          <span className='text-violet-800'>PUDS</span>
+          <span className='text-violet-500'>PUDS</span>
         </a>
       </div>
       <div className='navbar-center hidden lg:flex'>
-        <ul className='menu menu-horizontal px-1 gap-2'>{navLinks}</ul>
+        <ul className='menu menu-horizontal px-1 gap-2 font-semibold text-lg'>{navLinks}</ul>
       </div>
       <div className='navbar-end'>
         {/* {user ? (

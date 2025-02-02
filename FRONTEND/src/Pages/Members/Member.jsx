@@ -30,10 +30,10 @@ const Member = () => {
 
   return (
     <>
-      <div>
-        <div className="my-8 md:my-12">
-          <h3 className="text-center text-violet-800 font-bold text-2xl md:text-3xl">12th Executive Body</h3>
-          <p className="text-center my-4 text-black-500 leading-relaxed">
+      <div className="">
+        <div className="my-2 md:my-4 px-2">
+          <h3 className="text-center text-violet-500 font-bold text-2xl md:text-3xl">12th Executive Body</h3>
+          <p className="text-center my-2 md:my-4 text-black-500 leading-relaxed text-xl">
             The Executive Body of the Premier University Debating Society (PUDS)
             is the heart and soul of the club's operations. Through their vision and dedication,
             the Executive Body continually elevates PUDS, creating a lasting positive
@@ -66,10 +66,9 @@ const Member = () => {
                   className="w-full h-full object-cover"
                 />
               </motion.figure>
-              <div className="p-6">
-                <div className="text-center">
-                  <h2 className="font-bold text-xl text-gray-800">{res.name}</h2>
-                  <p className="text-gray-600">{res.position}</p>
+              <div className="p-2 md:py-4 text-center">
+                  <h2 className="font-bold text-xl text-violet-500">{res.name}</h2>
+                  <p className="text-violet-500 font-bold text-sm">{res.position}</p>
                   <div className="flex justify-center gap-4 mt-4">
                     <motion.div
                       whileHover={{ scale: 1.2, rotate: 10 }}
@@ -103,7 +102,6 @@ const Member = () => {
                         />
                       </Link>
                     </motion.div>
-                  </div>
                 </div>
               </div>
             </motion.div>

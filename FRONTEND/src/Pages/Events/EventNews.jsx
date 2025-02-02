@@ -4,7 +4,7 @@ import { FaBullhorn, FaTrophy, FaUniversity, FaStar } from "react-icons/fa";
 
 const EventNews = () => {
   return (
-    <div className="flex my-4 items-center">
+    <div className="flex mb-2 md:mb-4 items-center">
       <Marquee pauseOnHover={true} speed={100}>
         <Link className="mr-12 text-2xl font-bold flex items-center" to="/">
           <FaBullhorn className="text-blue-500 mr-2" />

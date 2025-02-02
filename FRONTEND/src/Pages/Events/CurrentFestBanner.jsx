@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const CurrentFestBanner = () => {
   return (
-    <div className="flex justify-center w-full bg-gray-100 my-8">
+    <div className="flex justify-center w-full bg-gray-100 my-4 md:my-6">
       <div className="w-full h-60 md:h-96 lg:h-[600px] max-w-6xl">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -46,7 +46,7 @@ const CurrentFestBanner = () => {
               <img
                 src="https://res.cloudinary.com/df5utoo6u/image/upload/v1736013961/neon_c9skef.jpg"
                 alt="Library Image 2"
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-full rounded-lg"
               />
               {/* <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center p-4">
                 <h2 className="text-2xl md:text-4xl text-white font-bold text-center">
