@@ -29,7 +29,7 @@ const Banner = () => {
               <h2 className="text-2xl md:text-4xl font-bold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-wide drop-shadow-lg font-montserrat">
                 Boost your Public Speaking Skills
               </h2>
-              <Link to="/events">
+              <Link to="https://www.facebook.com/PremierUniversityDebatingSociety">
                 <button className="bg-violet-500 text-white font-semibold md:font-bold mt-4 px-4 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
                   Join
                 </button>

@@ -18,7 +18,7 @@ const Achievements = () => {
   }, []);
 
   return (
-    <div className="bg-white py-2">
+    <div className="py-2">
       {" "}
       {/* Fixed bg-white-500 to bg-white */}
       <div className="text-center my-4 md:my-8">

@@ -17,7 +17,7 @@ const Navbar = () => {
         <NavLink to='/events'>Events</NavLink>
       </li>
       <li>
-        <NavLink to='/members'>Members</NavLink>
+        <NavLink to='/members'>Executive Members</NavLink>
       </li>
       {/* <li>
         <NavLink to='/join'>Join</NavLink>
