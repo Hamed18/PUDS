@@ -17,15 +17,15 @@ const CurrentPanel = () => {
   }, []);
 
   return (
-    <div className="bg-white-500 py-8">
+    <div className="bg-white-500 my-4 md:my-6 py-2">
       <div className="text-center">
-        <h3 className="text-3xl md:text-4xl font-bold text-violet-800 mb-6">Current Panel</h3>
-        <p className="w-full md:w-2/3 text-lg text-black-500 mx-auto mb-10">
+        <h3 className="text-3xl md:text-4xl font-bold text-violet-500">Current Panel</h3>
+        <p className="w-full md:w-2/3 text-lg text-black-500 mx-auto py-2">
           Meet our distinguished Executive Committee members who lead with dedication and vision.
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto py-2">
         <h1 className="font-bold text-2xl text-black-500 mb-8 text-center">
           12th Executive Committee
         </h1>
@@ -52,10 +52,10 @@ const CurrentPanel = () => {
                   className="rounded-full object-cover mb-4 shadow-md border-4 border-violet-500"
                   style={{ width: "200px", height: "200px" }}
                 />
-                <h4 className="text-2xl font-semibold text-black-500">
+                <h4 className="text-2xl font-bold text-violet-500">
                   {member.name}
                 </h4>
-                <p className="text-sm italic text-black-500 mb-4">{member.position}</p>
+                <p className="text-lg italic font-semibold text-violet-500 mb-4">{member.position}</p>
                 {/* <p className="text-gray-500 mt-4">
                   Dedicated to guiding the organization with expertise and vision.
                 </p> */}
@@ -65,9 +65,9 @@ const CurrentPanel = () => {
         </Swiper>
       </div>
 
-      <div className="flex justify-center items-center mt-10">
+      <div className="flex justify-center items-center py-2 md:py-4">
         <Link to="/members">
-          <button className="bg-violet-600 text-white font-bold px-10 py-3 rounded-full shadow-lg hover:bg-violet-700 transform transition-transform duration-300 hover:scale-105">
+          <button className="bg-violet-500 text-white font-bold px-4 py-2 rounded-full shadow-lg hover:bg-violet-700 transform transition-transform duration-300 hover:scale-105">
             View Full Panel
           </button>
         </Link>

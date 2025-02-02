@@ -9,11 +9,11 @@ const Event = () => {
     window.scrollTo(0, 0); // Scrolls to the top of the page when the component is mounted
   }, []);
   return (
-    <div>
+    <div className="">
       <EventNews></EventNews>
       <CurrentFest></CurrentFest>
       {/* <UnderConstruction></UnderConstruction> */}
-      <div className="my-4">
+      <div className="my-2 pb-4">
         <Headline></Headline>
       </div>
     </div>
