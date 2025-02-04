@@ -19,7 +19,7 @@ const Achievements = () => {
     <div className="pt-6 my-6 md:my-8 px-4">
       <div className="text-center">
         <h3 className="text-3xl md:text-4xl font-bold text-violet-600 mb-4">
-          Achievements of PUDS
+          Recent Achievements
         </h3>
         <p className="text-xl text-black-500 max-w-3xl mx-auto mb-2">
           PUDS has achieved unparalleled excellence in debate, securing numerous

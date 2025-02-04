@@ -19,12 +19,6 @@ const Navbar = () => {
       <li>
         <NavLink to='/members'>Executive Members</NavLink>
       </li>
-      {/* <li>
-        <NavLink to='/join'>Join</NavLink>
-      </li>
-      <li>
-			<NavLink to="/manageMyFoods">Borrowed Books</NavLink>
-		  </li> */}
     </>
   );
   return (
