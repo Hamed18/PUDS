@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import facebook from "../../assets/icons/facebook.png";
-import linkedin from "../../assets/icons/linkedin.png";
+import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Member = () => {
@@ -32,7 +31,7 @@ const Member = () => {
     <>
       <div className="">
         <div className="my-2 md:my-4 px-2">
-          <h3 className="text-center text-violet-500 font-bold text-2xl md:text-3xl">12th Executive Body</h3>
+          <h3 className="text-center text-violet-500 font-bold text-2xl md:text-3xl">12th Executive Committee</h3>
           <p className="text-center my-2 md:my-4 text-black-500 leading-relaxed text-xl">
             The Executive Body of the Premier University Debating Society (PUDS)
             is the heart and soul of the club's operations. Through their vision and dedication,
@@ -79,28 +78,18 @@ const Member = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <img
-                          src={facebook}
-                          alt="Facebook"
-                          className="w-8 h-8 rounded-full"
-                        />
+                        <FaFacebook className="w-8 h-8 text-blue-600" />
                       </Link>
                     </motion.div>
                     <motion.div
                       whileHover={{ scale: 1.2, rotate: 10 }}
                       whileTap={{ scale: 0.9 }}
                     >
-                      <Link
-                        to={res.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <a
+                        href={`tel:${res.whatsApp}`}
                       >
-                        <img
-                          src={linkedin}
-                          alt="LinkedIn"
-                          className="w-8 h-8 rounded-full"
-                        />
-                      </Link>
+                        <FaWhatsapp className="w-8 h-8 text-green-500" />
+                      </a>
                     </motion.div>
                 </div>
               </div>

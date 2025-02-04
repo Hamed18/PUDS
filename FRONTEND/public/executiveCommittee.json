@@ -1,30 +1,36 @@
 {
   "executiveCommittee": [
     {
-      "name": "Tonmoy Tahsin",
+      "name": "Ismail Hossain Tonmoy",
       "position": "President",
       "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737909161/tonmoy_x1fsij.jpg",
-      "description": "Tonmoy is the visionary leader of the club, ensuring its success and leading initiative growth.",
       "linkedin": "https://linkedin.com/in/tonmoytahsin",
       "facebook": "",
       "whatsApp": "",
       "email": ""
     },
     {
-      "name": "Asif Uddin",
+      "name": "Md. Asif Uddin",
       "position": "Senior Vice President",
       "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902549/Md_Asif_Uddin_ekdu7j.jpg",
-      "description": "Asif oversees key projects and supports the President in executing the club’s strategic goals.",
       "linkedin": "https://linkedin.com/in/asifuddin",
       "facebook": "",
       "whatsApp": "",
       "email": ""
     },
     {
+      "name": "Roxy Dev Tuli",
+      "position": "Vice President",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738692150/roxy2_xk4ooo.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "https://www.facebook.com/share/19NtdWGLCY/",
+      "whatsApp": "+8801876290254",
+      "email": "roxytulipuc3826032021@gmail.com"
+    },
+    {
       "name": "Rajesh Dhar",
       "position": "General Secretary",
       "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1736971748/Rajesh_Dhar_xlqhgt.jpg",
-      "description": "Rajesh manages club communications and ensures the smooth running of daily operations.",
       "linkedin": "https://linkedin.com/in/rajeshdhar",
       "facebook": "",
       "whatsApp": "",
@@ -34,7 +40,24 @@
       "name": "Hamed Hasan",
       "position": "Joint Secretary",
       "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1736971749/Hamed_Hasan_kxyw4o.jpg",
-      "description": "Hamed participates in debates and handles operational tasks within the club.",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Muhammad Istiak",
+      "position": "Joint Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902558/istiak_grlwdv.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Adita Das Gupta",
+      "position": "Joint Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902558/adita_dn8ghy.jpg",
       "linkedin": "https://linkedin.com/in/",
       "facebook": "",
       "whatsApp": "",
@@ -43,19 +66,17 @@
     {
       "name": "Fazal Al Mahmud Ayon",
       "position": "Organizing Secretary",
-      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902553/ayon_zltzjq.jpg",
-      "description": "Fam manages club events and coordinates the team’s efforts to ensure successful programs.",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738694689/ayon_l37juh.jpg",
       "linkedin": "https://linkedin.com/in/famayon",
       "facebook": "",
       "whatsApp": "",
       "email": ""
     },
     {
-      "name": "Shifat-E-Noor Chowdhury",
+      "name": "Shifat Noor Chowdhury",
       "position": "Debate Secretary",
       "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902557/shifat_noorchy_xlumi9.jpg",
-      "description": "Shifat oversees the debate team, ensuring training and preparation for competitions.",
-      "linkedin": "https://linkedin.com/in/shifat-noor",
+      "linkedin": "https://linkedin.com/in/",
       "facebook": "",
       "whatsApp": "",
       "email": ""
@@ -64,11 +85,89 @@
       "name": "Quazi Md Aldin Fardin",
       "position": "Co - Debate Secretary",
       "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738496363/PUDS%20SITE/jacrnheu9wiaj9izkard.jpg",
-      "description": "Fardin oversees the debate team, ensuring training and preparation for competitions.",
-      "linkedin": "https://linkedin.com/in/Taraldin",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Ramisha Tarannum",
+      "position": "Head of English Debate Wings",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738693959/ramisa_ipwlbi.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Arnob Mahajan",
+      "position": "Finance Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902554/Arnob_Mohajan_unxmci.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "https://www.facebook.com/share/1DpbERK8Rc/ ",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Saikat Barua",
+      "position": "Office Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738694888/saikat3_ev0ndj.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "https://www.facebook.com/saikat.barua.198495",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Kallyan Rudra",
+      "position": "Co - Office Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902555/kallayn_vbfhte.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Nirvik Chakma",
+      "position": "Head of Career Development",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738572510/IMG-20241019-WA0192_qpnwex.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "https://www.facebook.com/share/18bJns8d7K/",
+      "whatsApp": "+8801885962437",
+      "email": ""
+    },
+    {
+      "name": "Sharmin Habib Lima",
+      "position": "Media & Communication Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738693971/sharmin_nvnxy0.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "",
+      "whatsApp": "",
+      "email": ""
+    },
+    {
+      "name": "Mosharrafa Parvin",
+      "position": "Co - Media & Communication Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1737902557/Mosharrafa_Parvin_wujsth.jpg",
+      "linkedin": "https://linkedin.com/in/",
+      "facebook": "https://www.facebook.com/share/15pX7Lfr2x/",
+      "whatsApp": "+8801724422984",
+      "email": ""
+    },
+    {
+      "name": "Cinmoy Sikder",
+      "position": "IT Secretary",
+      "photoUrl": "https://res.cloudinary.com/df5utoo6u/image/upload/v1738694159/cinmoy2_gqw8mf.jpg",
+      "linkedin": "https://linkedin.com/in/",
       "facebook": "",
       "whatsApp": "",
       "email": ""
     }
   ]
 }
+
+
+
+
+
+
+
